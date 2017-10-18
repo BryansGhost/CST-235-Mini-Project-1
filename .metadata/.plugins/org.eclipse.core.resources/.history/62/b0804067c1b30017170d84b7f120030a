@@ -1,0 +1,52 @@
+import java.io.Serializable;
+import java.beans.*;
+
+
+public class HorseBean implements Serializable{
+	
+	private transient String name; //horse name
+	private transient int number; //number assigned to horse
+	private transient String color; //color of horse on the message board
+	
+	
+	public HorseBean(){ //empty constructor
+		
+	}
+
+	public HorseBean(String name, int number, String color){ //overloaded method
+		this.name = name;
+		this.number = number;
+		this.color = color;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getNumber() {
+		return number;
+	}
+
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+
+	public String getColor() {
+		return color;
+	}
+
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	
+}

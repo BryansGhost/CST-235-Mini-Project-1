@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "title": "Codetrails",
+  "timestamp": 1508296901959,
+  "ttl": 10080,
+  "helpUrl": "https://aer.ctrlflow.com/codetrails/help",
+  "feedbackUrl": "https://www.codetrails.com/error-analytics/",
+  "aboutUrl": "https://www.codetrails.com/error-analytics/",
+  "submitUrl": "https://aer.ctrlflow.com/codetrails/community/new",
+  "maxReportSize": 524288,
+  "problemsUrl": "https://aer.ctrlflow.com/downloads/codetrails/problems.zip",
+  "problemsTtl": 20160,
+  "interestUrl": "https://aer.ctrlflow.com/codetrails/community/interest",
+  "connectTimeout": 5,
+  "socketTimeout": 10,
+  "acceptedProducts": [
+    "*"
+  ],
+  "acceptedPlugins": [
+    "*"
+  ],
+  "acceptedPackages": [
+    "ch.qos.*",
+    "com.codetrails.*",
+    "com.ctrlflow.*",
+    "com.sun.*",
+    "java.*",
+    "javafx.*",
+    "javax.*",
+    "org.apache.*",
+    "org.eclipse.*",
+    "org.osgi.*",
+    "org.slf4j.*",
+    "sun.*"
+  ],
+  "requiredPackages": [
+    "com.codetrails.*",
+    "com.ctrlflow.aer.*",
+    "com.ctrlflow.codecity.*",
+    "com.ctrlflow.internal.codecity.*"
+  ],
+  "acceptOtherPackages": false,
+  "acceptUiFreezes": false,
+  "ignoredStatuses": [
+    ":java.net.*:"
+  ],
+  "problemsZipLastDownloadTimestamp": 0
+}
